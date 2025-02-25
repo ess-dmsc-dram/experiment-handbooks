@@ -1,0 +1,8 @@
+-r base.in
+-r ci.in
+-r docs.in
+-r static.in
+copier
+jupyterlab
+pip-compile-multi
+pre-commit
