@@ -7,7 +7,7 @@ min_python: '3.10'
 namespace_package: ''
 nightly_deps: ''
 orgname: ess-dmsc-dram
-prettyname: Experiments-Handbook
-projectname: experiments-handbook
+prettyname: Experiment-Handbooks
+projectname: experiment-handbooks
 related_projects: ''
 year: 2025

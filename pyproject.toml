@@ -6,7 +6,7 @@ requires = [
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "experiments-handbook"
+name = "experiment-handbooks"
 description = "Handbooks for Experiments by ESS-DMSC"
 authors = [{ name = "Scipp contributors" }]
 license = { file = "LICENSE" }
@@ -42,9 +42,9 @@ test = [
 ]
 
 [project.urls]
-"Bug Tracker" = "https://github.com/ess-dmsc-dram/experiments-handbook/issues"
-"Documentation" = "https://ess-dmsc-dram.github.io/experiments-handbook"
-"Source" = "https://github.com/ess-dmsc-dram/experiments-handbook"
+"Bug Tracker" = "https://github.com/ess-dmsc-dram/experiment-handbooks/issues"
+"Documentation" = "https://ess-dmsc-dram.github.io/experiment-handbooks"
+"Source" = "https://github.com/ess-dmsc-dram/experiment-handbooks"
 
 [tool.setuptools_scm]
 
@@ -78,7 +78,7 @@ ignore = [
     "COM812", "COM819", "D206", "D300", "E111", "E114", "E117", "ISC001", "ISC002", "Q000", "Q001", "Q002", "Q003", "W191",
 ]
 fixable = ["B010", "I001", "PT001", "RUF022"]
-isort.known-first-party = ["experiments-handbook"]
+isort.known-first-party = ["experiment-handbooks"]
 pydocstyle.convention = "numpy"
 
 [tool.ruff.lint.per-file-ignores]

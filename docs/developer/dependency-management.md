@@ -1,6 +1,6 @@
 # Dependency management
 
-experiments-handbook is a library, so the package dependencies are never pinned.
+experiment-handbooks is a library, so the package dependencies are never pinned.
 Lower bounds are fine and individual versions can be excluded.
 See, e.g., [Should You Use Upper Bound Version Constraints](https://iscinumpy.dev/post/bound-version-constraints/) for an explanation.
 
