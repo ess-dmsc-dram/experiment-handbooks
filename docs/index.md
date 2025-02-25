@@ -10,6 +10,7 @@
 hidden:
 ---
 
+experiments/index
 developer/index
 about/index
 ```

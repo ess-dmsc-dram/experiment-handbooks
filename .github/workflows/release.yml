@@ -11,6 +11,8 @@ defaults:
 
 jobs:
   docs:
+    with:
+      publish: true
     uses: ./.github/workflows/docs.yml
     secrets: inherit
 

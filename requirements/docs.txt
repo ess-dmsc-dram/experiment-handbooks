@@ -120,11 +120,6 @@ nbsphinx==0.9.6
     # via -r docs.in
 nest-asyncio==1.6.0
     # via ipykernel
-packaging==24.2
-    # via
-    #   ipykernel
-    #   nbconvert
-    #   sphinx
 pandocfilters==1.5.1
     # via nbconvert
 parso==0.8.4
@@ -150,8 +145,6 @@ pygments==2.19.1
     #   nbconvert
     #   pydata-sphinx-theme
     #   sphinx
-python-dateutil==2.9.0.post0
-    # via jupyter-client
 pyyaml==6.0.2
     # via myst-parser
 pyzmq==26.2.1
@@ -168,8 +161,6 @@ rpds-py==0.23.1
     # via
     #   jsonschema
     #   referencing
-six==1.17.0
-    # via python-dateutil
 snowballstemmer==2.2.0
     # via sphinx
 soupsieve==2.6

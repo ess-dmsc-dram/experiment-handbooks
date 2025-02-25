@@ -3,6 +3,7 @@ repos:
     rev: v5.0.0
     hooks:
       - id: check-added-large-files
+        exclude: 'docs/experiments/background.tiff|docs/experiments/misaligned_sample.tiff'
       - id: check-case-conflict
       - id: check-illegal-windows-names
       - id: check-json
