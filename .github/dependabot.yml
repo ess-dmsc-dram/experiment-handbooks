@@ -7,7 +7,7 @@ updates:
   - package-ecosystem: "pip"
     directory: "/requirements"
     schedule:
-      interval: "daily"
+      interval: "yearly"
     allow:
       - dependency-name: "scipp"
         dependency-type: "direct"
