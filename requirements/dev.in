@@ -2,7 +2,7 @@
 -r ci.in
 -r docs.in
 -r static.in
-copier
+copier>=9.9.1
 jupyterlab
 pip-compile-multi
 pre-commit
